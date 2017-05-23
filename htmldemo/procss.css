@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+body{text-align: center}
+div.titlediv {
+    text-align: center;
+    background-color: black;
+}
+
+ul.title_line {
+    height: 40px;
+}
+
+.title_line li {
+    float: left;
+    list-style: none;
+    width: 16%;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+}
+
+.titleMiddle {
+    width: 60%;
+}
+
+image {
+    width: 40px;
+    height: 40px;
+}
+.titleLeft {
+    width: 200px;
+    float: left;
+    background-color: white;
+    text-align: left;
+    padding-left: 30px;
+    height: 40px;
+    margin-top: -40px;
+}
+.titleRight {
+    width: 200px;
+    float: right;
+    background-color: white;
+    text-align: right;
+    padding-left: 30px;
+    height: 40px;
+    margin-top: -40px;
+}
+
+.content_top {
+    height: 200px;
+    background-color: #88bacf;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.content_second {
+    height: 400px;;
+    background-color: #88bacf;
+    margin-top: 20px
+}
+
+.content_left {
+    height: 100%;
+    width: 20%;
+    background-color: red;
+    float: left
+}
+
+.content_middle {
+    height: 100%;
+    width: 61%;
+    background-color: blue;
+    float: left
+}
+
+.content_right {
+    height: 100%;
+    width: 19%;
+    background-color: green;
+    float: right
+}
+.more{float: right;display: inline}
+.new{float: left;display: inline}
+.fu_div{height:200px;width: 60%;background-color: black;margin-top: -620px;}
