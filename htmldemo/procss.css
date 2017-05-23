@@ -2,7 +2,11 @@
     margin: 0px;
     padding: 0px
 }
-body{text-align: center}
+
+body {
+    text-align: center;
+}
+
 div.titlediv {
     text-align: center;
     background-color: blue;
@@ -10,8 +14,7 @@ div.titlediv {
 
 ul.title_line {
     height: 40px;
-    background-color: yellow;
-    display: inline;
+    display: inline-block;
 }
 
 .title_line li {
@@ -31,6 +34,7 @@ image {
     width: 40px;
     height: 40px;
 }
+
 .titleLeft {
     width: 200px;
     float: left;
@@ -40,6 +44,7 @@ image {
     height: 40px;
     margin-top: -40px;
 }
+
 .titleRight {
     width: 20px;
     float: right;
@@ -48,13 +53,6 @@ image {
     padding-left: 30px;
     height: 40px;
     margin-top: -40px;
-}
-
-.content_top {
-    height: 200px;
-    background-color: #88bacf;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
 .content_second {
@@ -83,6 +81,30 @@ image {
     background-color: green;
     float: right
 }
-.more{float: right;display: inline}
-.new{float: left;display: inline}
-.fu_div{height:200px;width: 60%;background-color: black;margin-top: -620px;}
+
+.more {
+    float: right;
+    display: inline
+}
+
+.new {
+    float: left;
+    display: inline
+}
+
+.content_top {
+    height: 200px;
+    background-color: #88bacf;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.fu_div {
+    height: 200px;
+    background-color: black;
+    width: 60%;
+    margin-top: -200px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
