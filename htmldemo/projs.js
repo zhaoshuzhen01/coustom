@@ -4,7 +4,9 @@
 function setPage() {
     var ul = document.getElementById("titleul");
     var lis = ul.getElementsByTagName("li");
+    alert("hah");
     $("#changeview").hide();
+    alert("2121");
     for (var i = 0;i <= lis.length - 1; i++) {
         //alert(i+"");
       lis[i].onmouseover = function(){
