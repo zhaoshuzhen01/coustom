@@ -4,10 +4,8 @@
 function setPage() {
     var ul = document.getElementById("titleul");
     var lis = ul.getElementsByTagName("li");
-    alert("hah");
     $("#changeview").hide();
-    alert("2121");
-    for (var i = 0;i <= lis.length - 1; i++) {
+   /* for (var i = 0;i <= lis.length - 1; i++) {
         //alert(i+"");
       lis[i].onmouseover = function(){
           this.style.color = "red";
@@ -17,10 +15,10 @@ function setPage() {
       }
         lis[i].onmouseout = function(){
             this.style.color = "white";
-           /* this.style.backgroundColor = "yellow"*/
+           /!* this.style.backgroundColor = "yellow"*!/
             time();
         };
-    }
+    }*/
 }
 function hello(){
     $("#changeview").hide();

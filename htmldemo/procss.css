@@ -5,11 +5,13 @@
 body{text-align: center}
 div.titlediv {
     text-align: center;
-    background-color: black;
+    background-color: blue;
 }
 
 ul.title_line {
     height: 40px;
+    background-color: yellow;
+    display: inline;
 }
 
 .title_line li {
@@ -39,7 +41,7 @@ image {
     margin-top: -40px;
 }
 .titleRight {
-    width: 200px;
+    width: 20px;
     float: right;
     background-color: white;
     text-align: right;
