@@ -35,6 +35,18 @@ image {
     height: 40px;
 }
 
+.anm_dog {
+    width: 100px;
+    height: 100px;
+}
+
+.floatdiv {
+    position: absolute;
+    left: 311px;
+    top: 815px;
+    visibility: hidden;
+}
+
 .titleLeft {
     width: 200px;
     float: left;
@@ -107,4 +119,11 @@ image {
     margin-top: -200px;
     margin-left: 20%;
     margin-right: 20%;
+}
+
+#fdck {
+    border: 1px solid #c0c0c0;
+    margin: 0 auto;
+    padding: 5px;
+    background: #f0f0f0
 }
