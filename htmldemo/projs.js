@@ -30,6 +30,7 @@ function setPage() {
     img.onmouseover = stop;
     img.onmouseout =begin;*/
     //start();
+    huaban();
 }
 function hello() {
     $("#changeview").hide();
@@ -67,3 +68,15 @@ function start() {
     img.style.visibility = "visible";
     interval = setInterval('changePos()', delay);
 }*/
+/**
+ * 花瓣飞舞
+ */
+function  huaban(){
+    $(document).snowfall('clear');
+    $(document).snowfall({
+        image: "img/huaban.png",
+        flakeCount:30,
+        minSize: 5,
+        maxSize: 22
+    });
+}
