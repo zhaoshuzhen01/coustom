@@ -9,11 +9,13 @@ body {
 
 div.titlediv {
     text-align: center;
-    background-color: blue;
+    /*background-color: blue;*/
+    background-image: url("img/title.png");
+    background-repeat: repeat-x;
 }
 
 ul.title_line {
-    height: 40px;
+    height:60px;
     display: inline-block;
 }
 
@@ -21,9 +23,9 @@ ul.title_line {
     float: left;
     list-style: none;
     width: 16%;
-    height: 40px;
-    line-height: 40px;
-    color: white;
+    height: 60px;
+    line-height: 60px;
+    color: black;
 }
 
 .titleMiddle {
@@ -125,5 +127,9 @@ image {
     border: 1px solid #c0c0c0;
     margin: 0 auto;
     padding: 5px;
-    background: #f0f0f0
+    background: #f0f0f0;
+}
+.floatimg{
+    width: 80px;
+    height: 80px;
 }
