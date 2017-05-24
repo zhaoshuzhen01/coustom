@@ -173,7 +173,7 @@ h1{
     height: 200px;
     left: 10px;
     top: 10px;
-    background: black;
+    /*background: black;*/
     overflow: hidden;
     border: solid 5px black;
 }
