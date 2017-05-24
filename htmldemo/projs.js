@@ -76,7 +76,7 @@ function  huaban(){
     $(document).snowfall({
         image: "img/huaban.png",
         flakeCount:30,
-        minSize: 5,
-        maxSize: 22
+        minSize: 15,
+        maxSize: 40
     });
 }
