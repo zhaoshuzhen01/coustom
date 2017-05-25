@@ -144,16 +144,16 @@ h1{
 }
 
 .content_top {
-    height:400px;
+    height:500px;
    /* background-color: #88bacf;*/
-    background-image: url("img/f2.png");
+    background-image: url("img/roll.gif");
     background-repeat: repeat;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 100%;
+  /*  margin-left: 10%;
+    margin-right: 10%;*/
 }
 .container{
-    margin: 4% auto;
+    margin: 0% auto;
     width: 210px;
     height: 400px;
     position: relative;
